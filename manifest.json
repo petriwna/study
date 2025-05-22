@@ -1,10 +1,16 @@
 {
+  "main.css": "auto/main.css",
   "main.js": "auto/scripts.js",
+  "public/images/application-section@2x.png": "auto/public/images/application-section@2x.png",
+  "public/images/cost-section@2x.png": "auto/public/images/cost-section@2x.png",
   "public/images/career-section@2x.png": "auto/public/images/career-section@2x.png",
   "public/images/education@2x.png": "auto/public/images/education@2x.png",
-  "public/images/hero.png": "auto/public/images/hero.png",
+  "public/images/hero@2x.png": "auto/public/images/hero@2x.png",
+  "public/images/application-section.png": "auto/public/images/application-section.png",
+  "public/images/cost-section.png": "auto/public/images/cost-section.png",
   "public/images/career-section.png": "auto/public/images/career-section.png",
   "public/images/education.png": "auto/public/images/education.png",
+  "public/images/hero.png": "auto/public/images/hero.png",
   "public/images/advantages-section.png": "auto/public/images/advantages-section.png",
   "public/images/decor-progress.png": "auto/public/images/decor-progress.png",
   "public/images/subscribe.png": "auto/public/images/subscribe.png",
@@ -29,8 +35,8 @@
   "public/images/author3.png": "auto/public/images/author3.png",
   "public/images/servicess-decor.png": "auto/public/images/servicess-decor.png",
   "privacy-policy.html": "auto/privacy-policy.html",
-  "favicon/favicon-96x96.png": "auto/favicon/favicon-96x96.png",
   "terms.html": "auto/terms.html",
+  "favicon/favicon-96x96.png": "auto/favicon/favicon-96x96.png",
   "cookies.html": "auto/cookies.html",
   "public/images/car-card-decor.png": "auto/public/images/car-card-decor.png",
   "public/images/review.png": "auto/public/images/review.png",
@@ -41,6 +47,6 @@
   "thank-you.html": "auto/thank-you.html",
   "favicon/site.webmanifest": "auto/favicon/site.webmanifest",
   "robots.txt": "auto/robots.txt",
-  "scripts.js.map": "auto/scripts.js.map",
-  "main.hot-update.js.map": "auto/main.d740aa72f9c3449b35e8.hot-update.js.map"
+  "main.css.map": "auto/main.css.map",
+  "scripts.js.map": "auto/scripts.js.map"
 }
