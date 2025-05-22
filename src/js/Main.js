@@ -13,8 +13,6 @@ export class Main {
         this.menuBtnOpen.addEventListener('click', this.handleMenuButton.bind(this));
         this.menuBtnClose.addEventListener('click', this.handleMenuButton.bind(this));
 
-            this.banner.style.display = 'none';
-
         if (!localStorage.getItem('cookiesAccepted')) {
             this.banner.style.display = 'flex';
         }
