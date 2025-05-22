@@ -15,14 +15,14 @@ export class Main {
 
             this.banner.style.display = 'none';
 
-        // if (!localStorage.getItem('cookiesAccepted')) {
-        //     this.banner.style.display = 'flex';
-        // }
-        //
-        // this.acceptBtn.addEventListener('click', () => {
-        //     localStorage.setItem('cookiesAccepted', 'true');
-        //     this.banner.style.display = 'none';
-        // });
+        if (!localStorage.getItem('cookiesAccepted')) {
+            this.banner.style.display = 'flex';
+        }
+
+        this.acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('cookiesAccepted', 'true');
+            this.banner.style.display = 'none';
+        });
     }
 
 
