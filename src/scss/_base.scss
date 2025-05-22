@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  color: var(--color-primary);
-  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  font-family: var(--font-family);
+  font-weight: 400;
   font-size: 16px;
-  font-weight: 300;
-  line-height: 1.5;
+  line-height: 189%;
   margin: 0;
   background-color: var(--primary);
 

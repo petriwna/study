@@ -4,8 +4,9 @@ export class Main {
         this.menuBtnOpen = document.querySelector('.menu-btn-open');
         this.menuBtnClose = document.querySelector('.menu-btn-close');
         this.form = document.querySelector('#get-form');
+        this.banner = document.querySelector('#cookie-banner');
+        this.acceptBtn = document.querySelector('#accept-cookies');
 
-        this.initSwiper();
         this.addEventListeners();
     }
 
@@ -13,6 +14,15 @@ export class Main {
         this.menuBtnOpen.addEventListener('click', this.handleMenuButton.bind(this));
         this.menuBtnClose.addEventListener('click', this.handleMenuButton.bind(this));
         this.form.addEventListener('submit', this.handleFormSubmit.bind(this));
+
+        if (!localStorage.getItem('cookiesAccepted')) {
+            this.banner.style.display = 'flex';
+        }
+
+        this.acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('cookiesAccepted', 'true');
+            this.banner.style.display = 'none';
+        });
     }
 
 
@@ -34,25 +44,25 @@ export class Main {
 
         window.location.href = 'thank-you.html';
     }
-
-    initSwiper() {
-        const swiper = new Swiper('.swiper-container', {
-            loop: true,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            breakpoints: {
-                768: {
-                    slidesPerView: 2,
-                },
-                1280: {
-                    slidesPerView: 3,
-                },
-            },
-            pagination: {
-                el: '.pagination',
-                bulletClass: 'pagination__button',
-                bulletActiveClass: 'pagination__button--active',
-            },
-        });
-    }
+    //
+    // initSwiper() {
+    //     const swiper = new Swiper('.swiper-container', {
+    //         loop: true,
+    //         slidesPerView: 1,
+    //         spaceBetween: 20,
+    //         breakpoints: {
+    //             768: {
+    //                 slidesPerView: 2,
+    //             },
+    //             1280: {
+    //                 slidesPerView: 3,
+    //             },
+    //         },
+    //         pagination: {
+    //             el: '.pagination',
+    //             bulletClass: 'pagination__button',
+    //             bulletActiveClass: 'pagination__button--active',
+    //         },
+    //     });
+    // }
 }

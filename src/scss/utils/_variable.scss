@@ -1,16 +1,16 @@
 :root {
-  --primary: #fafbfa;
-  --secondary: #2e709e;
-  --secondary-orang: #e6a43b;
+  --primary: #fff;
+  --secondary: #0c99ff;
+  --secondary-orang: #fe9803;
 
   --color-primary: #191431;
   --color-secondary: #272727;
   --color-secondary-light: #959595;
   --color-black: #000000;
-  --color-secondary-title: rgba(21, 114, 211, 0.1);;
-
-  --font-family: "Poppins", sans-serif;
-  --second-family: "Inter", sans-serif;
+  --color-secondary-title: rgba(21, 114, 211, 0.1);
+  --color-text-second: #2f3235;
+  --font-family: "Inter", sans-serif;
+  --second-family: "Poppins", sans-serif;
 }
 
 $bp-mobile: 480px;
