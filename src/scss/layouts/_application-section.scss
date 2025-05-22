@@ -29,5 +29,10 @@
 
   &__img {
     object-fit: contain;
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: block;
+    }
   }
 }

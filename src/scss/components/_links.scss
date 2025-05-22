@@ -1,11 +1,11 @@
 .link {
-  color: var(--secondary);
+  color: var(--color-black);
   text-decoration: none;
   transition: color 0.3s;
   font-weight: 500;
 
   &:hover {
-    color: var(--color-primary);
+    color: var(--secondary);
   }
 
   &--content {
