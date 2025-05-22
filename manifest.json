@@ -1,8 +1,10 @@
 {
   "main.js": "auto/scripts.js",
   "public/images/career-section@2x.png": "auto/public/images/career-section@2x.png",
+  "public/images/education@2x.png": "auto/public/images/education@2x.png",
   "public/images/hero.png": "auto/public/images/hero.png",
   "public/images/career-section.png": "auto/public/images/career-section.png",
+  "public/images/education.png": "auto/public/images/education.png",
   "public/images/advantages-section.png": "auto/public/images/advantages-section.png",
   "public/images/decor-progress.png": "auto/public/images/decor-progress.png",
   "public/images/subscribe.png": "auto/public/images/subscribe.png",
@@ -11,10 +13,11 @@
   "public/images/audi.png": "auto/public/images/audi.png",
   "favicon/web-app-manifest-512x512.png": "auto/favicon/web-app-manifest-512x512.png",
   "public/images/lamb.png": "auto/public/images/lamb.png",
+  "public/images/icons.svg": "auto/public/images/icons.svg",
   "media/inter-v18-latin-600.woff2": "auto/media/9d111139a583baef3053.woff2",
   "media/inter-v18-latin-regular.woff2": "auto/media/9698cc7dbf147ed363b6.woff2",
-  "favicon/favicon.ico": "auto/favicon/favicon.ico",
   "index.html": "auto/index.html",
+  "favicon/favicon.ico": "auto/favicon/favicon.ico",
   "media/poppins-v23-latin-600.woff2": "auto/media/91145014c0350c248ed2.woff2",
   "media/poppins-v23-latin-regular.woff2": "auto/media/405055dd680fa1dcdfa2.woff2",
   "media/poppins-v23-latin-500.woff2": "auto/media/08491d3f7fe7ae88ef44.woff2",
@@ -33,12 +36,11 @@
   "public/images/review.png": "auto/public/images/review.png",
   "favicon/favicon.svg": "auto/favicon/favicon.svg",
   "public/images/logo.svg": "auto/public/images/logo.svg",
-  "public/images/icons.svg": "auto/public/images/icons.svg",
   "public/images/review-decor.png": "auto/public/images/review-decor.png",
   "sitemap.xml": "auto/sitemap.xml",
   "thank-you.html": "auto/thank-you.html",
   "favicon/site.webmanifest": "auto/favicon/site.webmanifest",
   "robots.txt": "auto/robots.txt",
   "scripts.js.map": "auto/scripts.js.map",
-  "main.hot-update.js.map": "auto/main.1a38fafdc864fe5e071e.hot-update.js.map"
+  "main.hot-update.js.map": "auto/main.d740aa72f9c3449b35e8.hot-update.js.map"
 }

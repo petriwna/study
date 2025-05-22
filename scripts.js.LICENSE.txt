@@ -30,13 +30,7 @@
 
 /*! ../public/fonts/poppins-v23-latin-regular.woff2 */
 
-/*! ../public/images/advantages-section.png */
-
-/*! ../public/images/decor-progress.png */
-
 /*! ../public/images/hero.png */
-
-/*! ../public/images/servicess-decor.png */
 
 /*! ../public/images/subscribe.png */
 
@@ -122,21 +116,9 @@
   !*** ./client-src/modules/logger/tapable.js ***!
   \**********************************************/
 
-/*!**********************************************!*\
-  !*** ./src/public/images/decor-progress.png ***!
-  \**********************************************/
-
-/*!***********************************************!*\
-  !*** ./src/public/images/servicess-decor.png ***!
-  \***********************************************/
-
 /*!************************************************!*\
   !*** ./node_modules/webpack/hot/dev-server.js ***!
   \************************************************/
-
-/*!**************************************************!*\
-  !*** ./src/public/images/advantages-section.png ***!
-  \**************************************************/
 
 /*!***************************************************!*\
   !*** ./node_modules/ansi-html-community/index.js ***!

@@ -1,1 +1,0 @@
-{"version":3,"file":"main.77bf161fabe39e77d23f.hot-update.js","mappings":"iEAAAA,EAAoBC,EAAI,IAAM,sB","sources":["webpack://vebinar/webpack/runtime/getFullHash"],"sourcesContent":["__webpack_require__.h = () => (\"583ccd0df20a03240dcf\")"],"names":["__webpack_require__","h"],"sourceRoot":""}
