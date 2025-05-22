@@ -282,103 +282,63 @@
             </div>
         </div>
     </section>
-    <section class="testimonials-section section" id="reviews">
-        <div class="container testimonials-section__container">
-            <h2 class="testimonials-section__title section__title section__title--centered">What Clients Say</h2>
-
-            <div class="testimonials-list">
-                <div class="testimonial-card">
-                    <blockquote class="testimonial-card__text">
-                        They found a rare edition Jaguar within a week — impressive!
-                    </blockquote>
-                    <div class="testimonial-card__author">
-                        <img class="testimonial-card__img" src="./public/images/author1.png" alt="Emily">
-                        <div class="testimonial-card__author-name">
-                            <p class="testimonial-card__paragraph">Emily</p>
-                            <p class="testimonial-card__from">Ottawa</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <blockquote class="testimonial-card__text">
-                        Stress-free, transparent, and very responsive throughout.
-                    </blockquote>
-                    <div class="testimonial-card__author">
-                        <img class="testimonial-card__img" src="./public/images/author2.png" alt="Mark">
-                        <div class="testimonial-card__author-name">
-                            <p class="testimonial-card__paragraph">Mark</p>
-                            <p class="testimonial-card__from">Edmonton</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <blockquote class="testimonial-card__text">
-                        They handled all logistics and even got me a better deal.
-                    </blockquote>
-                    <div class="testimonial-card__author">
-                        <img class="testimonial-card__img" src="./public/images/author3.png" alt="Sophia">
-                        <div class="testimonial-card__author-name">
-                            <p class="testimonial-card__paragraph">Sophia</p>
-                            <p class="testimonial-card__from">Montreal</p>
-                        </div>
-                    </div>
-                </div>
+    <section id="faq" class="section faq-section">
+        <div class="container">
+            <h2 class="section__title section__title--centered"><span class="accent">FAQ</span></h2>
+            <div class="faq-section__container">
+                <details class="faq-section__questions-container questions-container">
+                    <summary class="questions-container__question">Is IELTS always required to study in Canada?
+                    </summary>
+                    <p class="questions-container__answer">No, some institutions accept alternative tests such as TOEFL
+                        or Duolingo English Test. In some cases, proof of previous education in English may suffice.</p>
+                </details>
+                <details class="faq-section__questions-container questions-container">
+                    <summary class="questions-container__question">Can I work while studying in Canada?
+                    </summary>
+                    <p class="questions-container__answer">Yes, international students with a valid study permit can
+                        work up to 20 hours per week during academic sessions and full-time during scheduled breaks.</p>
+                </details>
+                <details class="faq-section__questions-container questions-container">
+                    <summary class="questions-container__question">What if my visa application is refused?
+                    </summary>
+                    <p class="questions-container__answer">If your study permit is refused, you can review the refusal
+                        letter, correct the issues (e.g., incomplete documentation), and reapply. It’s important to
+                        demonstrate strong ties to your home country and sufficient funds.</p>
+                </details>
+                <details class="faq-section__questions-container questions-container">
+                    <summary class="questions-container__question">Where can I find scholarships for studying in
+                        Canada?
+                    </summary>
+                    <p class="questions-container__answer">You can search for scholarships on official platforms such as
+                        <a class="link link--content" href="https://www.scholarshipscanada.com" target="_blank">ScholarshipsCanada</a> and through
+                        specific universities or provincial programs.</p>
+                </details>
             </div>
         </div>
     </section>
-    <section class="contacts-section section" id="contacts">
-        <div class="container">
-            <div class="contacts-section__container">
-                <div class="contacts-section__form">
-                    <h2 class="contacts-section__title section__title section__title--centered"
-                    >Reach Out</h2>
-                    <form class="contacts-section__contact-form" id="get-form" name="get-form" autocomplete="off">
-                        <div class="contacts-section__form-field input">
-                            <label class="input__label visually-hidden" for="contact-name"
-                            >Your Name</label
-                            >
-                            <input
-                                    class="input__control"
-                                    id="contact-name"
-                                    type="text"
-                                    name="contact-name"
-                                    placeholder="Your Name"
-                                    required
-                            />
-                        </div>
-                        <div class="contacts-section__form-field input">
-                            <label class="input__label visually-hidden" for="contact-email"
-                            >Email</label
-                            >
-                            <input
-                                    class="input__control"
-                                    id="contact-email"
-                                    name="contact-email"
-                                    type="email"
-                                    placeholder="Email"
-                                    required
-                            />
-                        </div>
-                        <div class="contacts-section__form-field input">
-                            <label class="input__label visually-hidden" for="contact-message"
-                            >Tell us what you need</label>
-                            <textarea id="contact-message" class="input__control" name="contact-message"
-                                      placeholder="Tell us what you need" required></textarea>
-                        </div>
-                        <div class="contacts-section__consent checkbox">
-                            <label class="checkbox__container ">
-                                <input class="checkbox__input contacts-section__checkbox" type="checkbox" required/>
-                                I agree to the <a class="contacts-section__link link" href="/privacy-policy.html"
-                                                  target="_blank">privacy policy</a>.
-                            </label>
-                        </div>
-                        <button class="contacts-section__button button" type="submit"
-                        >Submit
-                        </button>
-                    </form>
-                </div>
+    <section id="form" class="subscribe-section">
+        <div class="container subscribe-section__container">
+            <div class="subscribe-section__content">
+                <h2 class="subscribe-section__title">Get Your Free Guide</h2>
+                <form action="#" method="post" class="subscribe-section__form">
+                    <div class="input">
+                        <label class="input__label visually-hidden" for="email"
+                        >Subscribe to our email newsletter</label
+                        >
+                        <input
+                                class="input__control"
+                                id="email"
+                                name="email"
+                                type="email"
+                                placeholder="Subscribe to our email newsletter"
+                                required
+                        />
+                        <button class="button" type="submit">Send Me</button>
+                    </div>
+                </form>
+            </div>
+            <div class="subscribe-section__image">
+
             </div>
         </div>
     </section>

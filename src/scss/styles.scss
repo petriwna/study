@@ -12,14 +12,15 @@
 @import 'components/logo';
 @import 'components/pagination';
 @import 'components/process-step';
+@import 'components/question-card';
 @import 'components/service-card';
-@import 'components/testimonial-card';
 
 @import 'layouts/advantages-section';
-@import 'layouts/contacts-section';
+@import 'layouts/subscribe-section';
 @import 'layouts/container';
 @import 'layouts/cookie-banner';
 @import 'layouts/examples-section';
+@import 'layouts/faq-section';
 @import 'layouts/footer';
 @import 'layouts/header';
 @import 'layouts/hero-section';
@@ -27,5 +28,4 @@
 @import 'layouts/process-section';
 @import 'layouts/section';
 @import 'layouts/services-section';
-@import 'layouts/testimonials-section';
 @import 'layouts/thank-you';
