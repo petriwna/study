@@ -16,8 +16,4 @@
         <loc> http://localhost:3003/terms.html</loc>
         <priority>0.80</priority>
     </url>
-    <url>
-        <loc> http://localhost:3003/thank-you.html</loc>
-        <priority>0.60</priority>
-    </url>
 </urlset>
