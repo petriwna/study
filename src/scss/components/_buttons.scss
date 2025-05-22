@@ -1,0 +1,25 @@
+.button {
+  display: block;
+  border-radius: 8px;
+  padding: 8px;
+  color: var(--primary);
+  background-color: var(--secondary-orang);
+  border: 2px solid var(--secondary-orang);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+
+  &:hover {
+    color: var(--secondary-orang);
+    background: transparent;
+  }
+
+  &--link {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 16px 32px;
+  }
+}

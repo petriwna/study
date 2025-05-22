@@ -1,0 +1,25 @@
+.service-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 20%;
+  text-align: center;
+
+  &__icon-container {
+    margin: 20px auto;
+  }
+
+  &__icon {
+    fill: var(--primary);
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 22px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+:root {
+  --primary: #fafbfa;
+  --secondary: #2e709e;
+  --secondary-orang: #e6a43b;
+
+  --color-primary: #191431;
+  --color-secondary: #272727;
+  --color-secondary-light: #959595;
+  --color-black: #000000;
+  --color-secondary-title: rgba(21, 114, 211, 0.1);;
+
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1280px;
